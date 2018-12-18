@@ -3,6 +3,7 @@ import Counter from './Counter';
 import Footer from './Footer';
 import Header from './Header';
 import './App.css';
+import CounterChild from './CounterChild';
 
 class App extends Component {
   render() {
@@ -11,10 +12,11 @@ class App extends Component {
 
     return (
       <div>
-         <Header />
-         <Counter />
-         <Footer year={currentYear}/> 
+        <Header />
+        <Counter />
+        <Footer />
       </div>
+      
     );
   }
 }
